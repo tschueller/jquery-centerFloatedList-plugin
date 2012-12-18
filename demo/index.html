@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<meta charset="utf-8">
+    <title>jquery.centerFloatedList Demo</title>
+    <style type="text/css">
+    
+        .container 
+        {
+            width: 52%; 
+			margin: 0 auto;
+            border: 1px dashed #ccc;
+            position: relative;
+			padding: 0;
+        }
+        
+		ul 
+		{
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			list-style-type: none;
+			position: relative;
+		}
+		
+		li
+		{
+			display: block;
+			width: 60px;
+			height: 30px;
+			border: 1px solid black;
+			margin: 10px;
+			padding: 10px;
+			float:left;
+			text-align: center;
+			line-height: 30px;
+		}        
+    </style>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="../jquery.centerFloatedList.js"></script>
+	<script type="text/javascript">
+		var i = 0;
+		function addItem()
+		{
+			$('ul').append('<li>' + (++i) + '</li>');
+		}
+		$(function() {
+			for (var max = 1; max > 0; max--) addItem();
+		});
+	</script>
+</head> 
+<body>
+	<h1>jquery.centerFloatedList Demo</h1>
+	<div class="container">
+		<ul></ul>
+	</div>
+	<p>
+		<hr/>
+		Resize your browser window and click the "Center the list" button: 
+		<button onclick="$('ul').centerFloatedList();">Center the list</button>
+		<br>
+		Klick the "Add Item" button to add more items:
+		<button onclick="addItem();">Add item</button>
+	</p>
+</body>
+</html>
