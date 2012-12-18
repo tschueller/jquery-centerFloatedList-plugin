@@ -18,10 +18,11 @@ Usage
 Images
 -------
 
-## Before the centering ##
-![uncentered list](./images/centerFloatedList1.png)	
+*Before the centering*
+
+![uncentered list](https://raw.github.com/tschueller/jquery-centerFloatedList-plugin/master/images/centerFloatedList1.png)	
 
 
-## After the centering ##
+*After the centering*
 
-![centered list](./images/centerFloatedList2.png)	
+![centered list](https://raw.github.com/tschueller/jquery-centerFloatedList-plugin/master/images/centerFloatedList2.png)	
