@@ -7,7 +7,7 @@ CenterFloatedList is a jQuery plugin that centers a list with floated items, as 
 
 Required jQuery 1.4.2 or higher.
 
-Demo: [http://schueller.me/projects/jquery-plugins/](http://schueller.me/projects/jquery-plugins/)
+Demo: [http://schueller.me/projects/jquery-plugins/](http://schueller.me/projects/jquery-plugins/#centerFloatedList)
 
 Usage
 -----
