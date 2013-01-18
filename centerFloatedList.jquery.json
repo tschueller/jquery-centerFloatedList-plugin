@@ -5,7 +5,7 @@
     "keywords": [
         "gallery",
 		"image",
-		"list",
+		"list"
     ],
     "version": "1.0.1",
     "author": {
@@ -21,7 +21,7 @@
     "bugs": "https://github.com/tschueller/jquery-centerFloatedList-plugin/issues",
     "homepage": "https://github.com/tschueller/jquery-centerFloatedList-plugin",
     "docs": "https://github.com/tschueller/jquery-centerFloatedList-plugin",
-	"demo": "http://schueller.me/projects/jquery-plugins/centerFloatedList/demo/"
+	"demo": "http://schueller.me/projects/jquery-plugins/centerFloatedList/demo/",
     "dependencies": {
         "jquery": ">=1.4.2"
     }
