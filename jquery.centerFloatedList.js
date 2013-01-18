@@ -1,7 +1,7 @@
 /*!
- * jQuery centerFloatedList Plugin v1.0.1 
+ * jQuery centerFloatedList Plugin v1.0.2 
  * Centers a list with floated list items.
- * Copyright (c) 2012, Thorsten Schüller 
+ * Copyright (c) 2012-2013, Thorsten Schüller 
  * http://schueller.me/projects/
  * Licensed under the MIT license.
  */
