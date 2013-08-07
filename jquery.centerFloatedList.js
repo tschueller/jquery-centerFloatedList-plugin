@@ -1,5 +1,5 @@
 /*!
- * jQuery centerFloatedList Plugin v1.0.2 
+ * jQuery centerFloatedList Plugin v1.0.3 
  * Centers a list with floated list items.
  * Copyright (c) 2012-2013, Thorsten Schüller 
  * http://schueller.me/projects/
@@ -24,7 +24,7 @@
 				if (itemsCount) 
 				{
 					itemWidth = items.first().outerWidth(true);
-					containerWidth = $this.innerWidth();
+					containerWidth = $this.innerWidth() - 1;
 					itemsInRowCount = Math.min(itemsCount, 
 							Math.floor(containerWidth / itemWidth));
 					emptySpace = containerWidth - itemsInRowCount * itemWidth;
